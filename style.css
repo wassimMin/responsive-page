@@ -1,0 +1,242 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+.head{
+    height: 10vh;
+    background-color: lightgray;
+    display: flex;
+    padding: 0px 10px;
+    border: 0.5px solid gray;
+}
+.head .right{
+    display:flex ;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    height: 10vh;
+    font-size: 30px;
+    width: 40%;
+}
+.head .right p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.head .left{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    gap: 20px;
+    justify-content: end;
+}
+.head .left .one{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+    padding: 5px;
+}
+.head .left form >i{
+    font-size: 20px;
+    color: #777;
+}
+.head .left form >input{
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.two{
+    display: flex;
+    background-color: #c0c0c0;
+    border-radius: 20px;
+    padding: 5px;
+    gap: 5px;
+}
+.three{
+
+    background-color: #c0c0c0;
+    border-radius: 20px;
+    padding: 8px;
+
+}
+
+.avatar{
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+
+
+
+.menu{
+    height: 90vh;
+    display: flex;
+}
+
+.side{
+    height: 100%;
+    width: 30%;
+    background: white;
+    border: 0.5px solid gray;
+}
+.side .repo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    gap: 10px;
+}
+.side .repo input{
+    border-radius: 20px;
+    padding: 5px 65px;
+    text-align: left;
+    background-color: lightgray;
+}
+.side .repo button{
+    padding: 5px 10px;
+    background-color: #8fbc8f;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 100px;
+}
+.side .repo span{
+    font-size: 13px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 20px;
+    margin-left: 25px;
+    gap:10px;
+    font-size: 13px;
+}
+.projects a{
+    text-decoration: none;
+    color: black;
+}
+.projects img{
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.activity{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.activity .p1{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.activity .p2{
+    border: 2px dotted lightgray;
+    padding: 10px 10px;
+    font-size: 12px;
+}
+.cont{
+    border: 0.5px solid gray;
+    height: 100%;
+    width: 80%;
+    background-color: lightgray;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.pts1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.f1, .f2 {
+    display: flex;
+    align-items: center;
+}
+
+.foryou, .following, .send, .filter {
+    text-decoration: none;
+    color: black;
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.foryou:hover, .following:hover, .send:hover, .filter:hover {
+    background-color: lightgray;
+    color: black;
+    border-color: lightgray;
+}
+
+.following {
+    color: #24292e;
+    margin-left: 10px;
+    background-color: transparent;
+    border-color: #ccc;
+}
+
+.send {
+    background-color: lightgray;
+    color: #6495ed;
+    margin-right: 10px;
+    border-color: lightgray;
+}
+
+.filter {
+    color: #586069;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+.filter i {
+    margin-left: 5px;
+}
+
+
+.pts2{
+    margin-top: 50px;
+    background-color: white;
+    width: 60%;
+    padding: 20px 5px;
+    border: 1px solid gray;
+    
+}
+.pts2 a{
+    text-decoration: none;
+    color: #6495ed;
+}
+.pts3{
+    margin-left: 600px;
+}
